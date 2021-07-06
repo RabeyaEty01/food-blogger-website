@@ -156,3 +156,74 @@ font-size: 20px;
     padding-right:-25px;
 
 }
+#fan-img-area{
+    height: 100%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.ebook-section {
+    background-position:right;
+}
+#ebook-area{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ebook-btn{
+    background-image: linear-gradient(orange, rgb(255, 0, 149));
+    padding: 10px 45px;
+    color: rgb(9, 9, 10);
+    transition: 3s;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    border-radius: 30px;
+    
+}
+.ebook-section input{
+    
+    font-size: 20px;
+    padding: 10px 5px 10px 90px;
+    font-weight: 700;
+    position: relative;
+    
+}
+.ebook-text{
+    text-align: center;
+    font-family:cursive;
+}
+.social-area{
+    text-align: center;
+    font-family:cursive;
+}
+
+.box-container-2{
+    width: 100%;
+    height: 400px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10px;
+    border-image-slice: 1;
+}
+
+
+.social-img-area{
+    width: 100%;
+    height: 65%;
+    padding-top: 5px;
+    padding-right:-25px;
+
+}
+.social-area span{
+    color: deeppink;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.social-area a{
+    color: deeppink;
+    font-size: 20px;
+    font-family: cursive;
+}
