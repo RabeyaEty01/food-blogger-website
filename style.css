@@ -238,7 +238,11 @@ footer h1{
     text-align: center;
     font-family: cursive;
 }
-footer span, p{
+footer p{
+    color: floralwhite;
+    text-align: center;
+}
+.footer-name{
     color: floralwhite;
     text-align: center;
 }
