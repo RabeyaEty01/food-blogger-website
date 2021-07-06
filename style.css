@@ -1,0 +1,158 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: center;
+    height:60px ;
+    background-color:#FFFFFF ;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #505050;
+    font-size: 22px;
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+.logo{
+    font-family:sans-serif;
+    color: #131218;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 12%;
+}
+
+span{
+    font-family:sans-serif;
+    color: rgb(212, 14, 113);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.active{
+    font-weight:bold ;
+    color: #e41d7a;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 10px;
+}
+h3{
+    font-size: 35px;
+}
+.name-color{
+ color: deeppink;
+ font-size: 40px;
+}
+.ex-color{
+    color: deeppink;
+
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+ width: 100%;
+ height: 700px;
+ border-radius:20%;
+}
+.order-btn{
+text-decoration: none;
+background-image: linear-gradient(orange, rgb(255, 0, 149));
+border-radius: 30px;
+padding: 10px 40px;
+color: rgb(16, 16, 20);
+transition: 3s;
+font-weight: 700;
+font-size: 20px;
+}
+#about-img-area{
+    width: 50%;
+    height: 114%;
+    border-radius:20%;
+    padding-left: 20%;
+}
+
+.about-section {
+    background-position:right;
+}
+#about-area{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-btn{
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(255, 0, 149));
+    border-radius: 30px;
+    padding: 10px 45px;
+    color: ghostwhite;
+    transition: 3s;
+    font-weight: 700;
+}
+
+.rcp-top-text-area{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}  
+.rcp-top-text-area p{
+    font-size: 20px;
+}
+
+.box-container{
+    width: 100%;
+    height: 715px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-image-slice: 1;
+}
+
+
+.rcp-color{
+    color: deeppink;
+
+}
+.rcp-img-area{
+    width: 95%;
+    height: 35%;
+    border-radius: 10px;
+    margin : 5px;
+    padding-top: 12px;
+    border-radius: 6%;
+    padding-right:-25px;
+
+}
